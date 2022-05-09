@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>	Details</title>
+</head>
+<body>
+
+</body>
+</html>
+<fieldset>
+<div align="center">
+<h1>Check your details</h1>
+
+<table border="1px" cellspacing="10">
+	<tr>
+		<th>CustomerName</th>
+		<th>AccountNumber</th>
+		<th>DateOfBirth</th>
+		<th>Contact</th>
+		<th>Adrress</th>
+		<th>Balance</th>
+		<th>Action</th>
+		
+	</tr>
+
+	
+	<tr>
+		<td>{{elist[0]}}</td>
+		<td>{{elist[1]}}</td>
+		<td>{{elist[2]}}</td>
+		<td>{{elist[3]}}</td>
+		<td>{{elist[4]}}</td>
+		<td>{{elist[5]}}</td>
+		<td><a href="editEmp?accno={{elist[1]}}">Edit</a>
+            <a href="deleteEmp?accno={{elist[1]}}">Delete</a>
+		</td>
+		
+				
+			
+	</tr>
+	
+</table>
+<h1><a href="/welcome">Home</a></h1>
+</div>
+</fieldset>
